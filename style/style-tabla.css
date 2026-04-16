@@ -1,0 +1,25 @@
+th,td{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid;
+    box-shadow: 2px 2px 5px gray;
+}
+
+tr:hover{
+    background-color: #b8e2f4 ;
+}
+
+#color-fila{
+    background-color: #c0c0c0;
+}
+
+.tabla_juegos{
+    max-height: 40vh;
+    overflow-y: scroll;
+    
+}
