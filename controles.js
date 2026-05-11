@@ -1,15 +1,12 @@
-const juegos = 1;
+const juegos = 10;
+
 
 function html(i){
-    return text = `<div class="juego${i}">
-                <hr>
-                <div class="img-juego${i}">
-                    <p>Imagen del juego${i}</p>
-                </div>
-                <p>Descripcion del juego${i}</p>
-                <button>Jugar</button>
-                <hr>
-            </div>`;
+    return text = `<div class="juego">
+                        <img src="img/juego.jpg" alt="La imagen del juego _nombre_ no ha cargado correctamente ">
+                        <p>Descripcion del juego${i}</p>
+                        <button>Jugar</button>
+                    </div>`;
 }
 
 function plays(){
@@ -20,4 +17,4 @@ function plays(){
     }
 }
 
-//plays();
+plays();

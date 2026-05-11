@@ -1,0 +1,61 @@
+/*seccion Mision y vision */
+.datastore section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* seccion historia y terminos  */
+#history{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+ #terminos-condiciones
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* margenes de 'pre' */
+pre {
+    text-align: center;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* formulario */
+form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+/* fieldset */
+fieldset{
+    width: 100%;
+    max-width: 40%;
+    padding: 10px;
+    border: 1px solid #000 ;
+    border-radius:10px ;
+}
+
+/* textarea */
+textarea{
+    width: 100%;
+    max-width: 95%;
+    resize: none;
+}
+
+@media (max-width: 1300px){
+    /* fieldset */
+    fieldset{
+        max-width: 50%;
+    }
+}
